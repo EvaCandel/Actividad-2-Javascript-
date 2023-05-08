@@ -1,0 +1,1 @@
+const lista = ["Eva",20,false,new Date(2003, 5 14)], {titulo: "Dispara,yo ya estoy muerto",autora:"Julia navarro" fecha: 2013,url: "https://julianavarro.es/"}]
