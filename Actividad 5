@@ -1,0 +1,10 @@
+let alturaCentimetros = 168;
+let alturaMetros = 1.68;
+let peso = 55.10;
+let alturaRedondeada = Math.ceil(alturaMetros);
+let pesoRedondeado = Math.floor(peso);
+let valoresMaximos = (Number.MAX_VALUE +1) === (Number.MAX_VALUE)
+
+console.log(alturaRedondeada);
+console.log(pesoRedondeado);
+console.log(valoresMaximos);
