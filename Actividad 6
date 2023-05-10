@@ -1,0 +1,17 @@
+let listaCompra = ["Huevos","Pan","Aceite","Tomates","Lechuga"];
+listaCompra.push("Aceite Girasol");
+listaCompra.pop();
+console.log(listaCompra)
+
+let listaPelis = [
+    {nombre: "El caballero oscuro", año: 2008, director:"Christopher Nolan"},
+     {nombre: "Intocable", año: 2011, director:"Olivier Nakache"},
+     {nombre: "La Milla Verde", año: 1999, director:"Frank Darabont"}
+    ]
+    
+    let listaFilter = listaPelis.filter(obj=>obj.año>2010);
+    let director = listaPelis.map(valor=>valor.director);
+    let peliculas = listaPelis.map(valor=>valor.nombre);
+    let concatena = director.concat(peliculas);
+    let propagacion = [...director, ...peliculas];
+    console.log(propagacion)
