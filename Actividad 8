@@ -1,0 +1,34 @@
+let obj ={
+    nombre:"Eva",
+    apellido:"Pardo",
+    edad:20,
+    altura:168,
+    isDeveloper:false,
+}
+
+let miEdad = obj.edad;
+var lista = {...obj}
+
+const datos2 = [{
+    ...obj
+},
+{
+    nombre: "Maria",
+    apellido: "Ventura",
+    edad: 24,
+    altura: 155,
+    eresDesarrollador: false
+},
+{
+    nombre: "Helena",
+    apellido: "Bermudez",
+    edad: 22,
+    altura: 163,
+    eresDesarrollador: false
+}
+];
+
+datos2.sort((a,b)=>a.edad-b.edad)
+
+
+console.log(datos2)
