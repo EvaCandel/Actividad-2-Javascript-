@@ -1,0 +1,4 @@
+let setFamilia = new Set(["Natalia","Eva","José","Carmen"]);
+setFamilia.add("Eva");
+setFamilia.add("JavaScript");
+console.log(setFamilia);
