@@ -1,0 +1,19 @@
+//La fecha de hoy
+const fecha = new Date();
+
+//La fecha de nacimiento
+const fechaCumple = new Date (2003,0,15);
+
+//Variable hoy es más tarde fecha nacimiento
+let comparacion = (fecha>fechaCumple);
+
+//Variable día cumpleaños
+let diaCumple = fechaCumple.getDate();
+
+// Variable con mes de nacimiento
+let mesCumple = fechaCumple.getMonth();
+
+// Variable con año de cumpleaños
+let anyoCumple = fechaCumple.getFullYear();
+
+console.log(anyoCumple)
